@@ -10,7 +10,6 @@ void menu(){
     printf("7. Thoat\n");
         
 }
-//case 1
 void addItem(int arr[100][100], int *n, int *m) {
 	int i;
 	int j;
@@ -26,7 +25,6 @@ void addItem(int arr[100][100], int *n, int *m) {
         }
     }
 }
-//case 2
 void showItem(int arr[100][100], int n, int m) {
 	int i;
 	int j;
@@ -38,13 +36,11 @@ void showItem(int arr[100][100], int n, int m) {
         printf("\n");
     }
 }
-//case 3
 void corner(int arr[100][100], int n, int m) {
     printf("Cac phan tu o goc ma tran:\n");
     printf("%d %d\n", arr[0][0], arr[0][m - 1]);
     printf("%d %d\n", arr[n - 1][0], arr[n - 1][m - 1]);
 }
-//case 4
 void borderLine(int arr[100][100], int n, int m) {
 	int i;
 	int j;
@@ -72,7 +68,6 @@ void borderLine(int arr[100][100], int n, int m) {
 	} 
     printf("\n");
 }
-//case 5
 void diagonal(int arr[100][100], int n, int m) {
 	int i, j;
     printf("Cac phan tu tren duong cheo chinh va cheo phu:\n");
@@ -88,7 +83,6 @@ void diagonal(int arr[100][100], int n, int m) {
         printf("\n");
     }
 }
-//case 6
 void showPrime(int arr[100][100], int n, int m) {
 	int i, j;
 	int x;
